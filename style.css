@@ -1,3 +1,13 @@
+/* Fade-in transition for the entire page */
+#page-content {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+#page-content.loaded {
+    opacity: 1;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
